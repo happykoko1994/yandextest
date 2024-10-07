@@ -8,5 +8,17 @@ function runningLine(marqueeId, textId) {
   marqueeText.style.animationDuration = animationDuration;
 }
 
+document.getElementById("support-btn").addEventListener("click", function () {
+  document
+    .querySelector(".text-tournament")
+    .scrollIntoView({ behavior: "smooth", block: "center" });
+});
+
+document.getElementById("more-info-btn").addEventListener("click", function () {
+  document
+    .querySelector(".right")
+    .scrollIntoView({ behavior: "smooth", block: "center" });
+});
+
 runningLine("marquee1", "marqueeText1");
 runningLine("marquee2", "marqueeText2");

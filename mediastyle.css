@@ -143,10 +143,10 @@
     min-width: auto;
   }
   .image {
-    min-width: 100%;
+    min-width: 335px;
   }
   .hand {
-    left: 263px;
+    left: 315px;
     bottom: -116px;
   }
   .money {
